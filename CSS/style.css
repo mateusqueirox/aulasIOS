@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+h1{
+    border: 5px solid red;
+    padding: 15px;
+    width: 250px;
+    height: 100px;
+}
+
+/* o CSS ebcara os elementos HTML como caixas, e se você não disser o tamanho
+dessa caixa vai até a ponta da borda ela ficará com um tamanho irregular. 
+Para ter mais precisão nos tamanhos de caixa usamos o parâmetro box sizing: border-box para
+incluir o paddig e a borda no tamanho total da caixa. */
+

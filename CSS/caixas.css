@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado{
+    width:250px;
+    height: 250px;
+    margin: 200px;
+}
+
+.quadrado-azul{
+    background-color: blue;
+}
+
+.quadrado-vermelho{
+    background-color: red;
+}
+
+#qb{
+    border: 5px black;
+    border-style: dotted;
+    margin: 270px 200px;
+}
+

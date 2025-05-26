@@ -35,3 +35,9 @@ switch (dias) {
         console.log("isso não é um dia da semana" );
         break;
 }
+
+
+
+
+
+
