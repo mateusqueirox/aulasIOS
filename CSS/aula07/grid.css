@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(11, 100px);
+    grid-template-rows: repeat(10, 100px);
+    background-color: #ffdfdf;
+    grid-template-areas: 
+    "topo topo topo topo topo topo topo topo topo topo topo"
+    "colunaE verdeTesta verdeTesta verdeTesta verdeTesta verdeTesta verdeTesta verdeTesta verdeTesta verdeTesta colunaD"
+    "colunaE verdeE olhoE olhoE olhoE verdeMeio olhoD olhoD olhoD verdeD colunaD"
+    "colunaE verdeE olhoE olhoE olhoE verdeMeio olhoD olhoD olhoD verdeD colunaD"
+    "colunaE verdeE olhoE olhoE olhoE verdeMeio olhoD olhoD olhoD verdeD colunaD"
+    "colunaE verdeE bochechaE bochechaE bochechaE verdeMeio bochechaD bochechaD bochechaD verdeD colunaD"
+    
+;
+
+
+}
+
+.topo{
+    background-color: green;
+    grid-area: topo;
+}   
+
+.colunaE{
+    background-color: green;
+    grid-area: colunaE;
+}
+
+.colunaD{
+    background-color: green;
+    grid-area: colunaD;
+}
+
+
+
+.verdeTesta{
+    background-color: greenyellow;
+    grid-area: verdeTesta;
+
+}
+
+.verdeE{
+    background-color: greenyellow;
+    grid-area: verdeE;
+}
+
+.olhoE{
+    background-color: green;
+    grid-area: olhoE;
+}
+
+.verdeMeio{
+    background-color: greenyellow;
+    grid-area: verdeMeio;
+}
+
+.olhoD{
+    background-color: green;
+    grid-area: olhoD;
+}
+
+.verdeD{
+    background-color: greenyellow;
+    grid-area: verdeD;
+}
+
+.bochechaE{
+    background-color: greenyellow;
+    grid-area: bochechaE;
+}
+
+.bochechaD{
+    background-color: greenyellow;
+    grid-area: bochechaD;
+}
